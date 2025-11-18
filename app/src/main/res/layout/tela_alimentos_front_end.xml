@@ -6,13 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".TelaAlimentosBackEnd">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="505dp"
+        android:layout_height="148dp"
+        android:src="@drawable/carbonara"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="47dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/texto_rondeli"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="479dp"
+        android:layout_height="133dp"
+        android:src="@drawable/rondeli"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_risoto"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="483dp"
+        android:layout_height="131dp"
+        android:src="@drawable/risoto"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_carbonara"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="10dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
